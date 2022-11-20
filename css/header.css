@@ -1,0 +1,46 @@
+#header {
+    display: block;
+    background-color: rgb(185, 163, 163);
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    padding-left: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#logo_home {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 130px;
+    height: 38px;
+    right: 0;
+    padding-right: 50px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_button {
+    background-color:#006DF0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
