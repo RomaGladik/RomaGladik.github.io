@@ -5,7 +5,7 @@ a {
 #header {
     display: block;
     background-color: white;
-    height: 70px;
+    height: 55px;
     width: 100%;
     /* margin-top: 10px;
     margin-bottom: 10px; */
@@ -29,11 +29,11 @@ a {
 #login {
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
+    transform: translate(0, -54%);
     width: 130px;
     height: 38px;
     right: 0;
-    padding-right: 50px;
+    padding-right: 70px;
     margin: 0;
     align-items: center;
     justify-content: center;
@@ -71,14 +71,14 @@ a {
     margin-left: 25px;
     margin-right: 25px;
     background-color: white;
-    color: #3f3f3f;
+    color: #757474;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     border: none;
-    border-radius: 8px;
-    width: 130px;
-    height: 35px;
+    border-radius: 6px;
+    width: auto;
+    height: auto;
     cursor: pointer;
     font-family: Jost,Arial;
     font-weight: 300;
