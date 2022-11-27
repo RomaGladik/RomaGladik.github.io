@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 a {
     color: #0088cc;
 }
@@ -5,12 +10,9 @@ a {
 #header {
     display: block;
     background-color: white;
-    height: 55px;
+    height: 70px;
     width: 100%;
-    /* margin-top: 10px;
-    margin-bottom: 10px; */
     position: relative;
-    /* border: solid; */
 }
 
 #logo {
@@ -29,9 +31,8 @@ a {
 #login {
     position: absolute;
     top: 50%;
-    transform: translate(0, -54%);
+    transform: translate(0, -50%);
     width: 130px;
-    height: 38px;
     right: 0;
     padding-right: 70px;
     margin: 0;
@@ -40,7 +41,7 @@ a {
 }
 
 #login_button {
-    background-color:#006DF0;
+    background-color: #006DF0;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -58,7 +59,7 @@ a {
     /* background-color: aqua; */
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     margin: 0 auto;
     align-items: center;
     width: 800px;
@@ -76,16 +77,18 @@ a {
     text-decoration: none;
     font-size: 12px;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     width: auto;
-    height: auto;
+    height: 25px;
     cursor: pointer;
-    font-family: Jost,Arial;
+    font-family: Jost, Arial;
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .btn_menu:hover {
