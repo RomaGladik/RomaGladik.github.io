@@ -1,0 +1,29 @@
+.content-about-us{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 5000px;
+    margin-top: 400px;
+    position: relative;
+    z-index: 5;
+    background: linear-gradient(180deg, #ffffff 10%, #76C3F7 90%);
+}
+
+
+.content-about-us-text{
+    width: 100%;
+    /* position: relative; */
+    margin-right: 0;
+    right: 0;
+    padding-right: 10px;
+    margin-left: 1300px;
+    margin-right: 20px;
+}
+
+
+.content-about-us-image{
+    width: 100%;
+    padding-right: 10px;
+    border: 0;
+    /* position: absolute; */
+}
+
