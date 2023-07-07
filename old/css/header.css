@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0088cc;
+}
+
+#header {
+    display: block;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    padding-left: 50px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#logo_home {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+#login {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 130px;
+    right: 0;
+    padding-right: 70px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_button {
+    background-color: #006DF0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#buttons {
+    display: flex;
+    position: absolute;
+    /* background-color: aqua; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    align-items: center;
+    width: 800px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn_menu {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
+    color: #757474;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    width: auto;
+    height: 25px;
+    cursor: pointer;
+    font-family: Jost, Arial;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn_menu:hover {
+    background-color: #f5f5f5;
+    color: #0B63F6;
+    box-shadow: 0px 0px 10px 0px #cccccc;
+}
