@@ -31,7 +31,8 @@
 }
 .main > .footer {
     grid-area:footer;
-    background:#72c2f1;
+    background:#333333;
+    height: 100px;
 }
 
 /* tablet breakpoint */
