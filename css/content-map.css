@@ -1,0 +1,15 @@
+.main-content-map{
+    background-color: rgb(255, 255, 255);
+    height: 643px;
+    margin-top: 50px;
+}
+
+#map{
+}
+
+#map_iframe{
+    width: 100%;
+    padding-right: 10px;
+    border: 0;
+
+}

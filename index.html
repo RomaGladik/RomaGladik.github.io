@@ -14,6 +14,12 @@
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/slider.css">
 	<link rel="stylesheet" href="css/slogan.css">
+	<link rel="stylesheet" href="css/main-results.css">
+	<link rel="stylesheet" href="css/content-about-us.css">
+	<link rel="stylesheet" href="css/catalog.css">
+	<link rel="stylesheet" href="css/content-map.css">
+
+
 	<!-- 4 файла ксс зробити і пропишу клас і висота по 500 пксл попривязувати якоря до блоків і приатачити картку -->
 </head>
 	<body>
@@ -33,7 +39,7 @@
 				<ul class="ul-header-manu-block">
 				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Про нас</a></li>
 				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Наші роботи</a></li>
-				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#" aria-haspopup="true">Каталог</a>
+				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#content-catalog" aria-haspopup="true">Каталог</a>
 					<ul class="ul-header-manu-block dropdown" aria-label="submenu">
 					  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Вікна</a></li>
 					  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Двері</a></li>
@@ -51,17 +57,66 @@
 		</header>
 		<main class="main-content">
 			<div class="main-content-slogan">
-				<h2>Панорама - Вибір професіоналів</h2>
+				<div class="main-content-slogan-header">
+					<h2>Панорама - Вибір професіоналів</h2>
+				</div>
+				<div class="main-content-sliders" >
+					<img class="slides_photos" src="./images/photos/slide1.jpg" >
+					<img class="slides_photos" src="./images/photos/slide2.jpg" >
+					<img class="slides_photos" src="./images/photos/slide3.jpg" >
+				</div>
 			</div>
-			<div class="main-content-sliders" >
-				<img class="slides_photos" src="./images/photos/slide1.jpg" >
-				<img class="slides_photos" src="./images/photos/slide2.jpg" >
-				<img class="slides_photos" src="./images/photos/slide3.jpg" >
+			<div class="main-content-about-us">
+				<div class="main-content-about-us-header">
+					<h3>
+						Про нас
+					</h3>
+				</div>
+				<div class="main-content-about-us-text">
+				Lorem anim deserunt esse consequat. Velit minim veniam culpa proident commodo dolor id deserunt excepteur qui. In sint minim proident cupidatat irure nostrud ea labore dolore quis ullamco anim est. Officia irure id exercitation labore et deserunt anim cupidatat occaecat.
+
+Ea sunt irure nisi anim reprehenderit est cillum do ea consectetur velit. Ut qui cillum minim in. Esse dolor ullamco elit exercitation velit culpa aliqua do sunt duis ipsum amet. Qui voluptate ea id excepteur consectetur non ex consequat. Ipsum ullamco adipisicing labore velit cillum veniam aliqua esse aute non. Magna culpa incididunt non qui exercitation cillum sit officia magna nostrud velit voluptate.
+
+Enim culpa commodo ea cillum elit aliquip nulla adipisicing officia veniam occaecat pariatur pariatur. Amet nulla ea consectetur laboris elit Lorem magna elit tempor. Occaecat Lorem cupidatat laboris mollit. In commodo ex amet nulla. Magna nostrud dolore laborum duis eu nulla adipisicing. Do ex ipsum adipisicing aute irure. Non nisi ad duis anim sit nostrud sunt occaecat.
+				</div>
 			</div>
-			<div class="main-content-about-us"></div>
 			<div class="main-content-results"></div>
-			<div class="main-content-catalog"></div>
-			<div class="main-content-map"></div>
+			<div class="main-content-catalog">
+				<div class="content-catalog" id="content-catalog">
+			
+					<div class="product-container">
+							<div class="title-text">
+								<h1 class="title-text-h1">Наші роботи</h1>
+							</div>
+						
+							<div class="product">
+							  <img src="./images/icons/snimok1_0.jpg" alt="Product Image">
+							</div>
+							<div class="product">
+							  <img src="./images/icons/1137992357_w640_h640_dveri-mezhkomnatnye-pvh.webp" alt="Product Image">
+							</div>
+							<div class="product">
+							  <img src="./images/icons/20033-300x266.jpg" alt="Product Image">
+							</div>
+							<div class="product">
+							  <img src="./images/icons/4dab0de1606926cbe1e4077478940956.jpeg" alt="Product Image">
+							</div>
+						</div>
+			
+				</div>
+			
+			</div>
+			<div class="main-content-map">
+				<div id="map">
+
+					<div id="map_iframe">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1543.2521189824674!2d29.865827512627142!3d48.33625342839508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cdc37a51259ecf%3A0xa9561271e72bb2ad!2sPanorama!5e0!3m2!1sru!2sua!4v1675087661386!5m2!1sru!2sua"
+							width="900px" height="605px" style="border:0;" allowfullscreen="1000px" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
 			
 		</main>
 		<!-- <section class="right-sidebar">right sidebar</section> -->

@@ -1,4 +1,8 @@
 .main-content-slogan{
+    margin-top: 75px;
+}
+
+.main-content-slogan-header{
     padding-top: 1rem;
     padding-bottom: 2rem;
     margin-top: 8px;
@@ -7,7 +11,7 @@
     justify-content:center;
 }
 
-.main-content-slogan h2{
+.main-content-slogan-header h2{
     font-weight: 700;
     font-size: 42px;
     color: #333333;
