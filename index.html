@@ -14,13 +14,30 @@
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/slider.css">
 	<link rel="stylesheet" href="css/slogan.css">
-	<link rel="stylesheet" href="css/main-results.css">
 	<link rel="stylesheet" href="css/content-about-us.css">
-	<link rel="stylesheet" href="css/catalog.css">
+	<link rel="stylesheet" href="css/result.css">
 	<link rel="stylesheet" href="css/content-map.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="shortcut icon" href="/images/icons/4dab0de1606926cbe1e4077478940956.jpeg" type="image/x-icon">
 
 
-	<!-- 4 файла ксс зробити і пропишу клас і висота по 500 пксл попривязувати якоря до блоків і приатачити картку -->
+<!-- to do 
+номер, емеіл і тд ссилкою хтмл,
+в хедері потрібно кнопку зробити біілою при наведенні(ховер), вокруг квадратіка має бути тень розмита при наведенні 
+кнопка зворотній звязок при наведенні біла а текст червоний, а так наоборот(попробувати добавити червону тінь при наведенні)
+текст при на веденні сірий як у фона хедера
+про нас 
+	1
+	2
+	3
+	4
+	домовити з іною щоб було написано як воно все зявилось(на кожне від 5-10 речень) в хронологічному порядку
+наші роботи
+10 фоток в ігоря з коротким описом
+який виробник, який матеріал, профіль, скло пакет і так далі(детальна інфа про виріб) -->
+
+
+
 </head>
 	<body>
 	
@@ -29,98 +46,281 @@
 			<div class="header-brand column left">
 				<a href="./index.html" class="header-brand-logo">ПАНОРАМА</a>
 			</div>
-			<!-- <div class="header-menu column middle">
-				<button class="header-manu-block-button button-menu">Про нас</button>
-				<button class="header-manu-block-button button-menu">Наші роботи</button>
-				<button class="header-manu-block-button button-menu">Каталог</button>
-				<button class="header-manu-block-button button-menu">Де купити?</button>
-			</div> -->
 			<nav role="navigation">
 				<ul class="ul-header-manu-block">
 				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Про нас</a></li>
 				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Наші роботи</a></li>
-				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#content-catalog" aria-haspopup="true">Каталог</a>
-					<ul class="ul-header-manu-block dropdown" aria-label="submenu">
-					  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Вікна</a></li>
-					  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Двері</a></li>
-					  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Жалюзі</a></li>
-					  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Ролети</a></li>
-					  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Ворота</a></li>
-					</ul>
-				  </li>
 				  <li class="header-manu-block-button button-menu"><a class="button-menu-link" href="#">Де купити?</a></li>
 				</ul>
 			  </nav>
 			<div class="header-callback column right">
-				<button class="header-header-callback-button button-menu pulse">Замовити дзвінок</button>
+				<button class="header-header-callback-button button-menu pulse" style="color: black;">Замовити дзвінок</button>
 			</div>
 		</header>
 		<main class="main-content">
+			
 			<div class="main-content-slogan">
-				<div class="main-content-slogan-header">
-					<h2>Панорама - Вибір професіоналів</h2>
-				</div>
-				<div class="main-content-sliders" >
+				<div class="main-content-slogan-text">
+					<p id="main-content-slogan-text-1">
+						Краса та функціональність у кожному вікні та дверях
+					</p>
+						
+					<p id="main-content-slogan-text-2">
+						Панорама - Вибір професіоналів
+					</p>
+			 	</div>
+				<!-- <div class="main-content-slogan-header">
+					
+				</div> -->
+				
+				<!-- <div class="main-content-sliders" >
 					<img class="slides_photos" src="./images/photos/slide1.jpg" >
 					<img class="slides_photos" src="./images/photos/slide2.jpg" >
 					<img class="slides_photos" src="./images/photos/slide3.jpg" >
-				</div>
+				</div> -->
 			</div>
+
 			<div class="main-content-about-us">
 				<div class="main-content-about-us-header">
-					<h3>
+					<h2>
 						Про нас
-					</h3>
+					</h2>
 				</div>
-				<div class="main-content-about-us-text">
-				Lorem anim deserunt esse consequat. Velit minim veniam culpa proident commodo dolor id deserunt excepteur qui. In sint minim proident cupidatat irure nostrud ea labore dolore quis ullamco anim est. Officia irure id exercitation labore et deserunt anim cupidatat occaecat.
 
-Ea sunt irure nisi anim reprehenderit est cillum do ea consectetur velit. Ut qui cillum minim in. Esse dolor ullamco elit exercitation velit culpa aliqua do sunt duis ipsum amet. Qui voluptate ea id excepteur consectetur non ex consequat. Ipsum ullamco adipisicing labore velit cillum veniam aliqua esse aute non. Magna culpa incididunt non qui exercitation cillum sit officia magna nostrud velit voluptate.
+				<div class="about-us block-left">
+					<div class="about-us-img img-left">
+						<img src="./images/photos/photo_2024-02-16_13-29-40.jpg" alt="photo">
+					</div>
+					<div class="about-us-text text-left">
+						<h4>Lorem1</h4>
+						<p style="font-size: 18px">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+							Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+							Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+							Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+							<!-- Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem! -->
 
-Enim culpa commodo ea cillum elit aliquip nulla adipisicing officia veniam occaecat pariatur pariatur. Amet nulla ea consectetur laboris elit Lorem magna elit tempor. Occaecat Lorem cupidatat laboris mollit. In commodo ex amet nulla. Magna nostrud dolore laborum duis eu nulla adipisicing. Do ex ipsum adipisicing aute irure. Non nisi ad duis anim sit nostrud sunt occaecat.
+						</p>
+						</div>
+					</div>
+					
+					<div class="about-us block-right">
+						<div class="about-us-text text-right">
+						<h4>Lorem2</h4>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+							Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+							Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+							Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+							Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem!
+							Sequi totam ipsum doloremque, fuga, similique tempore saepe qui, vero molestiae officiis harum fugiat pariatur eaque maxime adipisci. Nobis et sit dicta unde atque perspiciatis ipsa molestias nostrum voluptatibus minus.
+							Vero sapiente nihil exercitationem, aspernatur dignissimos expedita sequi alias nobis natus odit beatae repudiandae totam soluta adipisci nesciunt maiores delectus unde voluptatum, ad velit quis qui iure. Veniam, voluptatem minus.
+							Nam perferendis consectetur eligendi quaerat tempora dignissimos quo autem sequi non ullam. Nemo quidem sed harum fuga voluptatum provident commodi atque rem officia illum, repudiandae, voluptatem vero obcaecati dolor ducimus.
+							Esse architecto aperiam quisquam laudantium fugit similique autem, asperiores cum ducimus? Mollitia debitis facere qui in maxime, blanditiis temporibus! Quibusdam similique ea quos quas sapiente minima aliquam eaque possimus dolores?
+							Laborum dignissimos corrupti magnam officiis. Velit odio sit asperiores ex dolorem, deserunt voluptates consectetur pariatur voluptas a reprehenderit laudantium quas ipsam illo, autem nesciunt non ducimus optio alias. Suscipit, ipsa!\
+						</p>
+					</div>
+					<div class="about-us-img img-right">
+						<img src="./images/photos/our2.jpg" alt="photo">
+					</div>
 				</div>
+
+				<!-- <div class="about-us block-left">
+					<div class="about-us-img img-left">
+						<img src="./images/photos/our3.jpg" alt="photo">
+					</div>
+					<div class="about-us-text text-left">
+						<h4>Lorem3</h4>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+							Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+							Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+							Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+							Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem!
+							Sequi totam ipsum doloremque, fuga, similique tempore saepe qui, vero molestiae officiis harum fugiat pariatur eaque maxime adipisci. Nobis et sit dicta unde atque perspiciatis ipsa molestias nostrum voluptatibus minus.
+							Vero sapiente nihil exercitationem, aspernatur dignissimos expedita sequi alias nobis natus odit beatae repudiandae totam soluta adipisci nesciunt maiores delectus unde voluptatum, ad velit quis qui iure. Veniam, voluptatem minus.
+							Nam perferendis consectetur eligendi quaerat tempora dignissimos quo autem sequi non ullam. Nemo quidem sed harum fuga voluptatum provident commodi atque rem officia illum, repudiandae, voluptatem vero obcaecati dolor ducimus.
+							Esse architecto aperiam quisquam laudantium fugit similique autem, asperiores cum ducimus? Mollitia debitis facere qui in maxime, blanditiis temporibus! Quibusdam similique ea quos quas sapiente minima aliquam eaque possimus dolores?
+							Laborum dignissimos corrupti magnam officiis. Velit odio sit asperiores ex dolorem, deserunt voluptates consectetur pariatur voluptas a reprehenderit laudantium quas ipsam illo, autem nesciunt non ducimus optio alias. Suscipit, ipsa!\
+						</p>
+					</div>
+				</div>
+
+				<div class="about-us block-right">
+					<div class="about-us-text text-right">
+						<h4>Lorem4</h4>
+						<p>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+							Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+							Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+							Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+							Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem!
+							Sequi totam ipsum doloremque, fuga, similique tempore saepe qui, vero molestiae officiis harum fugiat pariatur eaque maxime adipisci. Nobis et sit dicta unde atque perspiciatis ipsa molestias nostrum voluptatibus minus.
+							Vero sapiente nihil exercitationem, aspernatur dignissimos expedita sequi alias nobis natus odit beatae repudiandae totam soluta adipisci nesciunt maiores delectus unde voluptatum, ad velit quis qui iure. Veniam, voluptatem minus.
+							Nam perferendis consectetur eligendi quaerat tempora dignissimos quo autem sequi non ullam. Nemo quidem sed harum fuga voluptatum provident commodi atque rem officia illum, repudiandae, voluptatem vero obcaecati dolor ducimus.
+							Esse architecto aperiam quisquam laudantium fugit similique autem, asperiores cum ducimus? Mollitia debitis facere qui in maxime, blanditiis temporibus! Quibusdam similique ea quos quas sapiente minima aliquam eaque possimus dolores?
+							Laborum dignissimos corrupti magnam officiis. Velit odio sit asperiores ex dolorem, deserunt voluptates consectetur pariatur voluptas a reprehenderit laudantium quas ipsam illo, autem nesciunt non ducimus optio alias. Suscipit, ipsa!\
+						</p>
+					</div>
+					<div class="about-us-img img-right">
+						<img src="./images/photos/our4.jpg" alt="photo">
+					</div>
+				</div> -->
+
 			</div>
-			<div class="main-content-results"></div>
-			<div class="main-content-catalog">
-				<div class="content-catalog" id="content-catalog">
-			
-					<div class="product-container">
-							<div class="title-text">
-								<h1 class="title-text-h1">Наші роботи</h1>
+
+
+			<div class="main-content-results" id="content-catalog">
+					<div class="result-block">
+							
+							<div class="result-block-header">
+								<h2>Наші роботи</h2>
 							</div>
 						
-							<div class="product">
-							  <img src="./images/icons/snimok1_0.jpg" alt="Product Image">
+							<div class="result block-left">
+
+								<div class="result-img img-left">
+									<img src="./images/photos/our1.jpg" alt="Photo">
+								</div>
+		
+								<div class="result-text text-left">
+									<h4>Lorem5</h4>
+									<p>
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+										Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+										Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+										Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+										Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem!
+										Sequi totam ipsum doloremque, fuga, similique tempore saepe qui, vero molestiae officiis harum fugiat pariatur eaque maxime adipisci. Nobis et sit dicta unde atque perspiciatis ipsa molestias nostrum voluptatibus minus.
+										Vero sapiente nihil exercitationem, aspernatur dignissimos expedita sequi alias nobis natus odit beatae repudiandae totam soluta adipisci nesciunt maiores delectus unde voluptatum, ad velit quis qui iure. Veniam, voluptatem minus.
+										Nam perferendis consectetur eligendi quaerat tempora dignissimos quo autem sequi non ullam. Nemo quidem sed harum fuga voluptatum provident commodi atque rem officia illum, repudiandae, voluptatem vero obcaecati dolor ducimus.
+										Esse architecto aperiam quisquam laudantium fugit similique autem, asperiores cum ducimus? Mollitia debitis facere qui in maxime, blanditiis temporibus! Quibusdam similique ea quos quas sapiente minima aliquam eaque possimus dolores?
+										Laborum dignissimos corrupti magnam officiis. Velit odio sit asperiores ex dolorem, deserunt voluptates consectetur pariatur voluptas a reprehenderit laudantium quas ipsam illo, autem nesciunt non ducimus optio alias. Suscipit, ipsa!\
+									</p>
+								</div>
+
 							</div>
-							<div class="product">
-							  <img src="./images/icons/1137992357_w640_h640_dveri-mezhkomnatnye-pvh.webp" alt="Product Image">
+			
+							<div class="result block-right">
+								
+								<div class="result-text text-right">
+									<h4>Lorem6</h4>
+									<p>
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+										Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+										Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+										Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+										Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem!
+										Sequi totam ipsum doloremque, fuga, similique tempore saepe qui, vero molestiae officiis harum fugiat pariatur eaque maxime adipisci. Nobis et sit dicta unde atque perspiciatis ipsa molestias nostrum voluptatibus minus.
+										Vero sapiente nihil exercitationem, aspernatur dignissimos expedita sequi alias nobis natus odit beatae repudiandae totam soluta adipisci nesciunt maiores delectus unde voluptatum, ad velit quis qui iure. Veniam, voluptatem minus.
+										Nam perferendis consectetur eligendi quaerat tempora dignissimos quo autem sequi non ullam. Nemo quidem sed harum fuga voluptatum provident commodi atque rem officia illum, repudiandae, voluptatem vero obcaecati dolor ducimus.
+										Esse architecto aperiam quisquam laudantium fugit similique autem, asperiores cum ducimus? Mollitia debitis facere qui in maxime, blanditiis temporibus! Quibusdam similique ea quos quas sapiente minima aliquam eaque possimus dolores?
+										Laborum dignissimos corrupti magnam officiis. Velit odio sit asperiores ex dolorem, deserunt voluptates consectetur pariatur voluptas a reprehenderit laudantium quas ipsam illo, autem nesciunt non ducimus optio alias. Suscipit, ipsa!\
+									</p>
+								</div>
+								
+								<div class="result-img img-right">
+									<img src="./images/photos/our2.jpg" alt="Photo">
+								</div>
+
 							</div>
-							<div class="product">
-							  <img src="./images/icons/20033-300x266.jpg" alt="Product Image">
+
+							<div class="result block-left">
+								
+								<div class="result-img img-left">
+									<img src="./images/photos/our3.jpg" alt="Photo">
+								</div>
+								
+								<div class="result-text text-left">
+									<h4>Lorem7</h4>
+									<p>
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+										Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+										Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+										Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+										Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem!
+										Sequi totam ipsum doloremque, fuga, similique tempore saepe qui, vero molestiae officiis harum fugiat pariatur eaque maxime adipisci. Nobis et sit dicta unde atque perspiciatis ipsa molestias nostrum voluptatibus minus.
+										Vero sapiente nihil exercitationem, aspernatur dignissimos expedita sequi alias nobis natus odit beatae repudiandae totam soluta adipisci nesciunt maiores delectus unde voluptatum, ad velit quis qui iure. Veniam, voluptatem minus.
+										Nam perferendis consectetur eligendi quaerat tempora dignissimos quo autem sequi non ullam. Nemo quidem sed harum fuga voluptatum provident commodi atque rem officia illum, repudiandae, voluptatem vero obcaecati dolor ducimus.
+										Esse architecto aperiam quisquam laudantium fugit similique autem, asperiores cum ducimus? Mollitia debitis facere qui in maxime, blanditiis temporibus! Quibusdam similique ea quos quas sapiente minima aliquam eaque possimus dolores?
+										Laborum dignissimos corrupti magnam officiis. Velit odio sit asperiores ex dolorem, deserunt voluptates consectetur pariatur voluptas a reprehenderit laudantium quas ipsam illo, autem nesciunt non ducimus optio alias. Suscipit, ipsa!\
+									</p>
+								</div>
+								
 							</div>
-							<div class="product">
-							  <img src="./images/icons/4dab0de1606926cbe1e4077478940956.jpeg" alt="Product Image">
+							<div class="result block-right">
+
+								<div class="result-text text-right">
+									<h4>Lorem8</h4>
+									<p>
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid perspiciatis, eos pariatur reprehenderit ex quae sapiente alias explicabo necessitatibus veritatis tempora, sequi vitae et quisquam enim, error ducimus sit nemo?
+										Eligendi tenetur mollitia consequatur, aspernatur quas harum earum dolorem nemo! Sapiente, quis obcaecati, laudantium expedita assumenda, odit facilis illum distinctio vero natus error accusantium? Totam voluptatum vel odit temporibus ea.
+										Quas rem facere esse, reprehenderit in beatae impedit explicabo iusto illum eos, recusandae eaque, labore hic corrupti tempore doloribus veritatis odit quam. Porro qui esse cumque nostrum rerum, laudantium facere!
+										Praesentium, quia repellendus, velit animi fugit perspiciatis vero, quis nemo molestiae totam inventore deleniti quasi blanditiis dolore. Illo nulla suscipit autem laboriosam. Delectus optio, reprehenderit fuga dolorum non ipsa repudiandae.
+										Earum ratione dolores quidem praesentium iusto? Minus reprehenderit praesentium neque adipisci suscipit accusamus non, nihil maxime dolore quos sed itaque et deleniti, reiciendis error. Atque molestias ipsa enim facere voluptatem!
+										Sequi totam ipsum doloremque, fuga, similique tempore saepe qui, vero molestiae officiis harum fugiat pariatur eaque maxime adipisci. Nobis et sit dicta unde atque perspiciatis ipsa molestias nostrum voluptatibus minus.
+										Vero sapiente nihil exercitationem, aspernatur dignissimos expedita sequi alias nobis natus odit beatae repudiandae totam soluta adipisci nesciunt maiores delectus unde voluptatum, ad velit quis qui iure. Veniam, voluptatem minus.
+										Nam perferendis consectetur eligendi quaerat tempora dignissimos quo autem sequi non ullam. Nemo quidem sed harum fuga voluptatum provident commodi atque rem officia illum, repudiandae, voluptatem vero obcaecati dolor ducimus.
+										Esse architecto aperiam quisquam laudantium fugit similique autem, asperiores cum ducimus? Mollitia debitis facere qui in maxime, blanditiis temporibus! Quibusdam similique ea quos quas sapiente minima aliquam eaque possimus dolores?
+										Laborum dignissimos corrupti magnam officiis. Velit odio sit asperiores ex dolorem, deserunt voluptates consectetur pariatur voluptas a reprehenderit laudantium quas ipsam illo, autem nesciunt non ducimus optio alias. Suscipit, ipsa!\
+									</p>
+								</div>
+
+								<div class="result-img img-right">
+									<img src="./images/photos/our4.jpg" alt="Photo">
+								</div>
+
 							</div>
+
 						</div>
 			
 				</div>
 			
-			</div>
-			<div class="main-content-map">
-				<div id="map">
 
-					<div id="map_iframe">
+
+
+			<div class="main-content-map">
+				
+
+					<div class="map-iframe">
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1543.2521189824674!2d29.865827512627142!3d48.33625342839508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cdc37a51259ecf%3A0xa9561271e72bb2ad!2sPanorama!5e0!3m2!1sru!2sua!4v1675087661386!5m2!1sru!2sua"
-							width="900px" height="605px" style="border:0;" allowfullscreen="1000px" loading="lazy"
+							allowfullscreen="1000px" loading="lazy"
 							referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
-				</div>
+
+					<div class="main-content-map-text">
+						<div class="main-content-map-text-inner">
+							<h3>Наші контакти:</h3>
+							<div class="content-map-text-inner" id="phone">
+								<img class="map-content-icon" src="./images/icons/telephone.png" alt="phone"> 
+								<a href="tel:+380671484635" style="text-decoration: none;">0671484635</a>
+							</div>
+							<div class="content-map-text-inner" id="telegram">
+								<img class="map-content-icon" src="./images/icons/telegram.png" alt="telegram">
+								<p>0671484635</p>
+							</div>
+							<div class="content-map-text-inner" id="viber">
+								<img class="map-content-icon" src="./images/icons/viber.png" alt="viber"> 
+								<p>0671484635</p>
+							</div>
+							<div class="content-map-text-inner" id="e-mail">
+								<img class="map-content-icon" src="./images/icons/email.png" alt="viber"> 
+								<p>gladikroma@gmail.com</p>
+							</div>
+						</div>
+					</div>
+
+				
+					
 			</div>
 			
 		</main>
 		<!-- <section class="right-sidebar">right sidebar</section> -->
-		<footer class="footer">Footer</footer>
+		<footer class="footer">
+			<div class="footer_h1_text">Вибір професіоналів</div>
+
+		</footer>
 	</div>
 	
 	<script src="./js/slider.js"></script>

@@ -1,6 +1,15 @@
+
+
+
 .main-content-slogan{
-    margin-top: 75px;
+    border: 1px solid red;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/background/background1.jpg);
+    background-size: cover;
+    height: auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
+
 
 .main-content-slogan-header{
     padding-top: 1rem;
@@ -11,13 +20,26 @@
     justify-content:center;
 }
 
-.main-content-slogan-header h2{
+/* .main-content-slogan-header h2{
     font-weight: 700;
     font-size: 42px;
-    color: #333333;
+    color: #ffffff;
     text-decoration: none;
     padding-bottom: 15px;
-    text-shadow: 0 0 3px #333333;
-    /* box-shadow: #333333 0px 5px 15px; */
-    box-shadow: #333333 0px 25px 20px -20px;
+    text-shadow: 0 0 3px #ffffff;
+    box-shadow: #333333 0px 5px 15px;
+    box-shadow: #ffffff 0px 25px 20px -20px;
+} */
+
+
+.main-content-slogan-text{
+    text-align: center;
+    color: #ffffff;
+    font-size: 3.5rem;
+    text-shadow: 0 0 3px #ffffff;
+    font-weight: 600;
+}
+
+#main-content-slogan-text-1{
+    padding-bottom: 3.5rem;
 }

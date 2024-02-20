@@ -1,3 +1,20 @@
+
+
+
+/* Color*/
+
+
+:root{
+    --green: #43b23d;
+    --white: #ffffff;
+    --gray: #454444;
+}
+
+
+/* Color */
+
+
+
 /* grid container */
 .main {
     display:grid;
@@ -5,12 +22,13 @@
         'header'
         'main-content'
         'footer';
+        background-color: #454444;
 }
 
-/* general column padding */
+/* general column padding 
 .main > * {
     padding:1rem;
-}
+} */
 
 /* assign columns to grid areas */
 .main > .header {
