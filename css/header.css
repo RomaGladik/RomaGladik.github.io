@@ -1,7 +1,8 @@
 .header {
+  /* display: grid; */
   padding: 0.5rem;
+  justify-content: space-between;
 }
-
 
 /* Create three unequal columns that floats next to each other */
 
@@ -44,7 +45,7 @@
 }
 
 .header-brand-logo:hover {
-    color: blue;
+    color: rgb(255, 255, 255);
     transition: all .07s ease-in-out;
 }
 /* -------------------------------------------------- */
@@ -56,7 +57,7 @@
     justify-content: center;
 }
 .header-manu-block-button {
-    background-color: rgb(16, 170, 235);
+    background-color: rgb(0, 0, 0);
     border: none;
     color: white;
     padding: 15px 15px;
@@ -75,7 +76,7 @@
     color: white;
 }
 .button-menu:hover {
-    background-color: blue;
+    background-color: rgb(135, 135, 138);
 }
 .button-menu-link {
     text-decoration: none;
@@ -96,20 +97,6 @@ li {
   text-decoration: none;
   transition-duration: 0.5s;
 }
-    
-/* li a {
-  color: #fff;
-} */
-  
-  /* li:hover,
-  li:focus-within {
-      cursor: pointer;
-  } */
-  
-  /* li:focus-within a {
-    outline: none;
-    color: green;
-  } */
   
 ul li ul {
   background: #333333;;
@@ -142,29 +129,28 @@ ul li ul li {
 
 /* -------------------------------------------------- */
 
- .header-callback {
-    justify-content: center;
-    text-align:right;
+.header-callback {
+  justify-content: center;
+  text-align:right;
 }
 
 .pulse {
-  color: white;
+  color: black;
   text-decoration: none;
   width: 200px;
   height: 60px;
   font-size: 18px;
   margin: 4px 2px;
-  background: red;
   cursor: pointer;
-  margin-left: 250px;
+  /* margin-left: 250px; */
   display: block;
   background: #ffffff;
   cursor: pointer;
-  box-shadow: #acacac;
   animation: pulse 1.5s infinite;
 }
 .pulse:hover {
   animation: none;
+  box-shadow: #acacac;
 }
 
 @-webkit-keyframes pulse {
@@ -192,49 +178,3 @@ ul li ul li {
       box-shadow: 0 0 0 0 rgba(204,169,44, 0);
   }
 }
-/* .header-callback {
-    justify-content: center;
-    text-align:right;
-}
-.pulse {
-    color: white;
-    text-decoration: none;
-    width: 200px;
-    height: 60px;
-    font-size: 18px;
-    margin: 4px 2px;
-    background: red;
-    cursor: pointer;
-    box-shadow: 0 0 0 rgb(255, 255, 255);
-    animation: pulse 2s infinite;
-}
-.pulse:hover {
-    animation: none;
-} */
-/* -------------------------------------------------- */
-  
-  /* @-webkit-keyframes pulse {
-    0% {
-      -webkit-box-shadow: 0 0 0 rgb(255, 255, 255);
-    }
-    70% {
-        -webkit-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
-    }
-    100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-    }
-  }
-  @keyframes pulse {
-    0% {
-      -moz-box-shadow: 0 0 0 rgb(255, 255, 255);
-      box-shadow: 0 0 0 rgb(255, 255, 255);
-    }
-    70% {
-        -moz-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
-        box-shadow: 0 0 0 20px rgba(204,169,44, 0);
-    }
-    100% {
-        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-    }
-  } */
