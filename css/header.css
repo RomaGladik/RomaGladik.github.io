@@ -1,105 +1,95 @@
 .header {
-  /* display: grid; */
   padding: 0.5rem;
-  justify-content: space-between;
-}
-
-/* Create three unequal columns that floats next to each other */
-
-.column {
-    float: left;
-    padding: 5px;
-    /* height: 100px; Should be removed. Only for demonstration */
-}
-  
-.left, .right {
-    width: 25%;
-    /* border: red solid; */
-}
-
-.middle {
-    /* border: #72c2f1 solid; */
-    width: 50%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+  height: 6rem;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  align-items: center;
+  justify-content: center;
 }
 
 /* -------------------------------------------------- */
 .header-brand {
-    justify-content: center;
-    padding: 15px 15px;
+  padding: 5px;
+  /* border: red solid; */
+  display: flex;
+  justify-content: center;
 }
-
 .header-brand-logo {
-    display: block;
-    font-weight: 700;
-    font-size: 32px;
-    color: #ffffff;
-    text-decoration: none;
-    text-shadow: 0 0 3px #ffffff;
-    
+  display: block;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 0 3px #ffffff;
 }
-
 .header-brand-logo:hover {
-    color: rgb(255, 255, 255);
-    transition: all .07s ease-in-out;
+  color: rgb(255, 255, 255);
+  transition: all .07s ease-in-out;
 }
 /* -------------------------------------------------- */
 
 
+
+
 /* -------------------------------------------------- */
-.header-menu {
-    text-align: center;
-    justify-content: center;
+.header-navigation {
+  /* border: #009914 solid; */
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
+
+.ul-header-manu-block {
+  text-align: center;
+}
+
 .header-manu-block-button {
-    background-color: rgb(0, 0, 0);
-    border: none;
-    color: white;
-    padding: 15px 15px;
-    width: 140px;
-    height: 60px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
+
 .button-menu {
-    background-color: #333333; 
-    color: white;
+  background-color: #333333;
+  color: white;
 }
+
 .button-menu:hover {
-    background-color: rgb(135, 135, 138);
+  background-color: rgb(135, 135, 138);
 }
+
 .button-menu-link {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
+
 ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    padding-bottom: 0;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 0;
 }
-  
+
 li {
   display: block;
   float: left;
-  padding: 1rem;
   position: relative;
   text-decoration: none;
   transition-duration: 0.5s;
 }
-  
+
 ul li ul {
-  background: #333333;;
+  background: #333333;
   visibility: hidden;
   opacity: 0;
   min-width: 5rem;
@@ -109,29 +99,31 @@ ul li ul {
   left: 0;
   display: none;
 }
-  
-ul li:hover > ul,
-ul li:focus-within > ul,
+
+ul li:hover>ul,
+ul li:focus-within>ul,
 ul li ul:hover,
 ul li ul:focus {
-   visibility: visible;
-   opacity: 1;
-   display: block;
+  visibility: visible;
+  opacity: 1;
+  display: block;
 }
-  
+
 ul li ul li {
   clear: both;
-  width: 100%;
 }
 
 /* -------------------------------------------------- */
 
 
-/* -------------------------------------------------- */
 
+
+/* -------------------------------------------------- */
 .header-callback {
+  display: flex;
+  padding: 5px;
+  /* border: blue solid; */
   justify-content: center;
-  text-align:right;
 }
 
 .pulse {
@@ -142,39 +134,54 @@ ul li ul li {
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
-  /* margin-left: 250px; */
   display: block;
   background: #ffffff;
   cursor: pointer;
   animation: pulse 1.5s infinite;
 }
+
 .pulse:hover {
   animation: none;
   box-shadow: #acacac;
 }
+/* -------------------------------------------------- */
+
+
+
+
+
+
+
+
+
 
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
   }
+
   70% {
-      -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
   }
+
   100% {
-      -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
+
 @keyframes pulse {
   0% {
     -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
   }
+
   70% {
-      -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
   }
+
   100% {
-      -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
   }
 }
