@@ -34,6 +34,24 @@ a:hover{
     height: 100px;
 }
 
+
+
+
+::-webkit-scrollbar {
+    width: 16px; /* Ширина полоси прокрутки */
+}
+
+::-webkit-scrollbar-track {
+    background: #565656; /* Колір фону треку (полоси) */
+    border: #fff solid 0.5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c9c0c0; /* Колір полоси прокрутки */
+    border-radius: 2px; /* Радіус кутів полоси прокрутки */
+}
+
+
 /* tablet breakpoint */
 @media (min-width:768px) {
     .main {
