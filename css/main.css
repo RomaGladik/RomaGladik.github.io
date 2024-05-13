@@ -1,6 +1,10 @@
 
 /* Color*/
 
+a:hover{
+    color: inherit;
+}
+
 :root{
     --green: #43b23d;
     --white: #ffffff;

@@ -57,6 +57,7 @@
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  
 }
 
 .button-menu {
@@ -119,6 +120,11 @@ ul li ul li {
 
 
 /* -------------------------------------------------- */
+
+.header-header-callback-button{
+  border-radius: 6px;
+}
+
 .header-callback {
   display: flex;
   padding: 5px;

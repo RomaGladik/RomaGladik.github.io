@@ -3,11 +3,12 @@
 
 .main-content-slogan{
     border: 1px solid red;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/background/background1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/background/background7.jpg);
     background-size: cover;
     height: auto;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
+    padding-bottom: 8.5rem;
+    padding-top: 8.5rem;
+    background-position: center;
 }
 
 
@@ -16,11 +17,11 @@
     padding-bottom: 2rem;
     margin-top: 8px;
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
 }
 
-/* .main-content-slogan-header h2{
+.main-content-slogan-header h2{
     font-weight: 700;
     font-size: 42px;
     color: #ffffff;
@@ -29,7 +30,8 @@
     text-shadow: 0 0 3px #ffffff;
     box-shadow: #333333 0px 5px 15px;
     box-shadow: #ffffff 0px 25px 20px -20px;
-} */
+
+}
 
 
 .main-content-slogan-text{
@@ -41,5 +43,29 @@
 }
 
 #main-content-slogan-text-1{
-    padding-bottom: 3.5rem;
+    padding-bottom: 1rem;
 }
+
+/* 
+.none-content-slogan{
+    border: 3px solid rgb(214, 0, 233);
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.text-content-slogan{
+    border: 3px solid rgb(0, 233, 221);
+    width: 50%;
+    height: 100%;
+    float: right;
+    color: #fff;
+    padding-top: 200px; 
+    text-align: center;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 500;
+} */
+
+
